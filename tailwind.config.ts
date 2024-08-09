@@ -15,10 +15,33 @@ const config = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
       },
     },
     extend: {
+      width: {
+        '100%': '100%',
+      },
+      height: {
+        '80px': '80px',
+        '100vh-rem': '56.25rem',
+      },
+      maxWidth: {
+        'custom': '40%' // Custom maximum width value
+      },
+      lineHeight: {
+        'extra-loose': '2.5rem' // Custom line height value
+      },
+      spacing: {
+        'custom': '3rem' // Custom spacing value
+      },
       colors: {
+        h6: "#C71E0D",
+        post: "#1B884F",
+        grayBackground: "#F9FAFB",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -67,10 +90,71 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fadeInRightBig": {
+          '0%': {
+            opacity: '0',
+            transform: 'translate3d(100%, 0, 0)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
+        "fadeInUp": {
+          '0%': {
+            opacity: '0',
+            transform: 'translate3d(0, 100%, 0)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
+     
+        "fadeInLeft": {
+          '0%': {
+            opacity: '0',
+            transform: 'translate3d(-100%, 0, 0)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
+        "fadeInRight": {
+          '0%': {
+            opacity: '0',
+            transform: 'translate3d(100%, 0, 0)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
+        "fadeInDown": {
+          '0%': {
+            opacity: '0',
+            transform: 'translate3d(0, -100%, 0)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
+        "fadeIn": {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fadeInRightBig": 'fadeInRightBig 1s ease-in-out',
+        "fadeInUp": 'fadeInUp 1s ease-in-out',
+        "fadeInLeft": 'fadeInLeft 1s ease-in-out',
+        "fadeInRight": 'fadeInRight 1s ease-in-out',
+        "fadeInDown": 'fadeInDown 1s ease-in-out',
+        "fadeIn": 'fadeIn 1s ease-in-out',
       },
     },
   },
