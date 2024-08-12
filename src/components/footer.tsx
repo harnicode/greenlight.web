@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0C111D] min-h-[456px] text-white pt-[50px]">
+    <div className="relative bg-[#0C111D] min-h-[456px] text-white pt-[50px]">
       <div className="w-[80%] m-auto flex flex-col gap-[40px]">
-        <div className="2xl:flex flex-row xl:flex flex-row lg:flex flex-row md:flex flex-row max-sm:flex flex-col gap-[40px]">
-          <div className="grid grid-cols-2 content-between justify-between place-items-start gap-6">
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="basis-3/5 content-between justify-between gap-6">
             <div className="flex flex-col gap-4">
-              <div className="flex flex-row gap-6">
+              <div className="flex flex-row gap-6 items-center justify-start">
                 <Image
                   src="/images/logo.png"
                   alt="Image"
@@ -17,12 +17,12 @@ const Footer = () => {
                   height={50}
                 />
 
-                <h3 className="leading-[60px] text-xl">
+                <h3 className="text-md md:text-xl font-bold">
                   Green Light Sports Consult
                 </h3>
               </div>
               <div>
-                <p className="leading-[35px] max-sm:width-[50%]">
+                <p className="leading-[35px] md:w-[80%]">
                   From meticulous sports management and strategic consultancy to
                   dynamic image branding and expert contract negotiation, we are
                   here to provide the guidance and resources you need to succeed
@@ -31,8 +31,8 @@ const Footer = () => {
                 </p>
               </div>
               <div>
-                <p className="leading-[10px] text-lg mt-8">Useful Links</p>
-                <ul className="2xl:grid grid-cols-6 md:grid grid-cols-2 max-sm:grid grid-cols-2 gap-1 leading-[80px]">
+                <p className="leading-[35px] text-lg">Useful Links</p>
+                <ul className="grid grid-cols-2 2xl:grid-cols-6 items-center justify-start gap-4 py-4">
                   <li className="font-bold">Home</li>
                   <li className="font-bold">About Us</li>
                   <li className="font-bold">Services</li>
@@ -44,9 +44,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h5 className="leading-[40px]">Contact Us</h5>
-            <ul className="leading-[30px]">
+          <div className="flex flex-row basis-2/5 md:justify-end">
+            <ul className="leading-[35px]">
+              <li className="text-lg leading-[35px]">Contact Us</li>
               <li>Call: 030 398 0009, +1 21 4641 2354</li>
               <li>Whatsapp: +1 61 4356 0823</li>
               <li>Facebook: green Light Sports Consult</li>
@@ -56,15 +56,21 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
       </div>
-      <div className="leading-[60px] max-sm:leading-[80px] border-t-[1px] border-gray-500 relative inset-0 h-24 width-[80%] m-auto mt-8 max-sm:width-[100%]">
-          <p className="text-gray-500 max-sm:text-[14px] max-sm:text-center">
-            © 2024 Green Light Sports Consult. All rights reserved.
-          </p>
-        </div>
+
+      <div
+        className="relative m-auto mt-8 border-t-[1px] border-gray-500
+                flex items-center justify-center 
+                w-full md:w-[80%] lg:w-[80%]
+                md:justify-start lg:justify-start"
+      >
+        <p className="text-gray-500 text-[12px] md:text-[14px] leading-[80px] md:leading-[80px]">
+          © 2024 Green Light Sports Consult. All rights reserved.
+        </p>
+      </div>
     </div>
   );
 };
 
 export default Footer;
+

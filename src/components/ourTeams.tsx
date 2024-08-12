@@ -21,22 +21,21 @@ const OurTeams: React.FC = () => {
     >
       <h6 className="text-h6">Our team</h6>
       <p className="text-[#101828]  text-2xl flex flex-wrap">Leadership team</p>
-      <p>
+      <p className="leading-lg mb-[10px]">
         Meet the individuals who drive our mission forward and are committed to
         making a positive impact on your career.
       </p>
-      {/* <div className="2xl:grid grid-cols-3 xl:grid grid-cols-3 lg:grid grid-cols-3 md:grid-cols-3 max-sm:grid-cols-1 gap-3 py-6"> */}
-      <div className="sm:flex flex-row w-[100%] m-[auto] gap-[100px] py-6">
-        <div className="2xl:w-[350px] max-sm:w-[300px] flex flex-col gap-3">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] md:w-[300px] p-4">
           <Image
             src="/images/person1.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
-            width={350}
+            width={450}
             height={300}
           />
-          <p>John Smith</p>
+          <p className="leading-[25px] mt-[10px]">John Smith</p>
           <p className="text-post">Founder & CEO</p>
           <div className="flex flex-row gap-4">
             <svg
@@ -95,7 +94,7 @@ const OurTeams: React.FC = () => {
               />
             </svg>
           </div>
-          <p>
+          <p className="leading-[25px] mt-[10px]">
             With over 20 years of experience in the sports industry, John Smith
             has built [Agency Name] from the ground up. His visionary leadership
             and strategic insight have positioned the agency as a leading force
@@ -105,17 +104,17 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="w-[350px] max-sm:w-[300px] flex flex-col gap-2">
+        <div className="sm:w-1/2 leading-[30px] lg:w-[450px] md:w-[300px] p-4">
           <Image
             src="/images/user2.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
-            width={350}
+            width={450}
             height={300}
           />
-          <p>John Smith</p>
-          <p className="text-post">Founder & CEO</p>
+          <p>Emily Johnson</p>
+          <p className="text-post">Head of Sports Management</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -174,27 +173,26 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
 
-          <p>
-            With over 20 years of experience in the sports industry, John Smith
-            has built [Agency Name] from the ground up. His visionary leadership
-            and strategic insight have positioned the agency as a leading force
-            in athlete representation and sports management. John is passionate
-            about empowering athletes and ensuring their success both on and off
-            the field.
+          <p className="leading-[25px] mt-[10px]">
+            Emily Johnson brings a decade of experience in sports management to
+            our team. Her meticulous approach to career planning and day-to-day
+            management ensures that our clients receive comprehensive and
+            personalized support. Emily is dedicated to helping athletes achieve
+            their peak performance and career goals.
           </p>
         </div>
 
-        <div className="w-[350px] max-sm:w-[300px] flex flex-col gap-2">
+        <div className="sm:w-1/2 leading-[30px] lg:w-[450px] md:w-[300px] md:mt-[20px] p-4">
           <Image
             src="/images/user3.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
-            width={350}
+            width={450}
             height={300}
           />
-          <p>John Smith</p>
-          <p className="text-post">Founder & CEO</p>
+          <p>Michael Brown</p>
+          <p className="text-post">Senior Sports Consultant</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -252,28 +250,28 @@ const OurTeams: React.FC = () => {
               />
             </svg>
           </div>
-          <p>
-            With over 20 years of experience in the sports industry, John Smith
-            has built [Agency Name] from the ground up. His visionary leadership
-            and strategic insight have positioned the agency as a leading force
-            in athlete representation and sports management. John is passionate
-            about empowering athletes and ensuring their success both on and off
-            the field.
+          <p className="leading-[25px] mt-[10px]">
+            As our Senior Sports Consultant, Michael Brown offers invaluable
+            expertise in strategic planning and performance enhancement. With a
+            background in sports psychology and analytics, Michael provides
+            athletes with the tools and insights needed to make informed
+            decisions and excel in their careers.
           </p>
         </div>
-      </div>
-      <div className="sm:flex flex-row w-[100%] gap-[100px] m-[auto] mt-[60px]">
-        <div className="w-[350px] max-sm:w-[300px] flex flex-col gap-2">
+
+        {/* //leveltwo */}
+
+        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] lg:mt-[40px] md:w-[300px] md:mt-[20px] p-4">
           <Image
             src="/images/user4.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
-            width={350}
+            width={450}
             height={300}
           />
-          <p>John Smith</p>
-          <p className="text-post">Founder & CEO</p>
+          <p>Sophia Davis</p>
+          <p className="text-post">Director of Image Branding</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -332,27 +330,26 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
 
-          <p>
-            With over 20 years of experience in the sports industry, John Smith
-            has built [Agency Name] from the ground up. His visionary leadership
-            and strategic insight have positioned the agency as a leading force
-            in athlete representation and sports management. John is passionate
-            about empowering athletes and ensuring their success both on and off
-            the field.
+          <p className="leading-[25px] mt-[10px]">
+            Sophia Davis is a seasoned branding expert with a talent for
+            creating compelling personal brands. Her innovative strategies and
+            keen understanding of market trends help athletes build strong,
+            impactful identities. Sophia’s work ensures that our clients stand
+            out in a competitive landscape and connect with fans and sponsors.
           </p>
         </div>
 
-        <div className="w-[350px] max-sm:w-[300px] flex flex-col gap-2">
+        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] lg:mt-[40px] md:w-[300px] md:mt-[20px] p-4">
           <Image
             src="/images/user5.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
-            width={350}
+            width={450}
             height={300}
           />
-          <p>John Smith</p>
-          <p className="text-post">Founder & CEO</p>
+          <p>David Wilson</p>
+          <p className="text-post">Talent Scout</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -410,27 +407,26 @@ const OurTeams: React.FC = () => {
               />
             </svg>
           </div>
-          <p>
-            With over 20 years of experience in the sports industry, John Smith
-            has built [Agency Name] from the ground up. His visionary leadership
-            and strategic insight have positioned the agency as a leading force
-            in athlete representation and sports management. John is passionate
-            about empowering athletes and ensuring their success both on and off
-            the field.
+          <p className="leading-[25px] mt-[10px]">
+            David Wilson’s extensive network and keen eye for emerging talent
+            make him an invaluable asset to our team. As our Talent Scout, David
+            is responsible for identifying promising athletes and guiding them
+            through the early stages of their careers. His dedication to
+            discovering and nurturing new talent is unmatched.
           </p>
         </div>
 
-        <div className="w-[350px] max-sm:w-[300px] flex flex-col gap-2">
+        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] lg:mt-[40px] md:w-[300px] md:mt-[20px] p-4">
           <Image
             src="/images/user6.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
-            width={350}
+            width={450}
             height={300}
           />
-          <p>John Smith</p>
-          <p className="text-post">Founder & CEO</p>
+          <p>Olivia Martinez</p>
+          <p className="text-post">Lead Contract Negotiator</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -489,15 +485,16 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
 
-          <p>
-            With over 20 years of experience in the sports industry, John Smith
-            has built [Agency Name] from the ground up. His visionary leadership
-            and strategic insight have positioned the agency as a leading force
-            in athlete representation and sports management. John is passionate
-            about empowering athletes and ensuring their success both on and off
-            the field.
+          <p className="leading-[25px] mt-[10px]">
+            Olivia Martinez is our expert in contract writing and negotiation.
+            With a background in sports law and a keen understanding of contract
+            intricacies, Olivia ensures that all agreements are fair,
+            transparent, and advantageous for our clients. Her negotiation
+            skills are crucial in securing the best terms and protecting our
+            clients’ interests.
           </p>
         </div>
+        {/* //level two end  */}
       </div>
     </div>
   );

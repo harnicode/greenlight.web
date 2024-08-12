@@ -17,7 +17,7 @@ const AboutUs: React.FC = () => {
     <div
       ref={ref}
       id="about-us"
-      className="flex flex-col items-left justify-between mt-[50px] w-[80%]"
+      className="flex flex-col items-left justify-between my-[50px] w-[80%]"
     >
       <h6 className="text-h6">Who we are</h6>
       <p className="text-[#101828]  text-2xl flex flex-wrap">
@@ -25,7 +25,7 @@ const AboutUs: React.FC = () => {
         management experts committed to shaping the future of athletes and
         sports professionals.
       </p>
-      <p className=" flex flex-wrap ext-lg leading-extra-loose mb-[10px]">
+      <p className=" flex flex-wrap ext-lg leading-[30px] mb-[10px]">
         Our team combines industry knowledge, strategic insight, and a passion
         for sports to deliver exceptional services in management, consultancy,
         and branding. With a client-focused approach, we pride ourselves on our

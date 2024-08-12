@@ -13,12 +13,12 @@ const ContactUs: React.FC = () => {
 
   return (
     <div ref={ref} id="contact-us" className="w-[80%] py-12">
-      <div className="md:flex flex-row gap-12">
-        <div className="2xl:w-[50%] xl:w-[50%] lg:w-[50%] md:w-[50%] max-sm:w-[100%] flex flex-col gap-4">
-          <h6 className="text-h6 leading-custom">Get in Touch</h6>
-          <p className="text-[#101828]  text-2xl flex flex-wrap">For Players</p>
+      <div className="flex flex-col gap-[25px] md:flex-row gap-12">
+        <div className="w-[100%] md:w-[50%] flex flex-col">
+          <h6 className="text-h6 ">Get in Touch</h6>
+          <p className="text-[#101828] text-[1.3rem] md:text-2xl flex flex-wrap">For Players</p>
 
-          <p className="leading-[2rem]">
+          <p className="">
             If you’re a player seeking representation, you’ve come to the right
             place. Please note that we are selective in our process and evaluate
             several aspects before moving forward. To be considered, your CV
@@ -49,9 +49,9 @@ const ContactUs: React.FC = () => {
             submission and get back to you if there is mutual interest.
           </p>
         </div>
-        <div className="2xl:w-[50%] xl:w-[50%] lg:w-[50%] md:w-[50%] max-sm:w-[100%] flex flex-col gap-4">
+        <div className="w-[100%] md:w-[50%] flex flex-col">
           <h6 className="text-h6">Partner with Us</h6>
-          <p className="text-[#101828]  text-2xl flex flex-wrap">
+          <p className="text-[#101828] text-[1.3rem] md:text-2xl flex flex-wrap">
             For Coach/Scout/GM/Agent
           </p>
           <p className="leading-[2rem]">

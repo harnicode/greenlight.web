@@ -1,5 +1,5 @@
+import React from "react";
 import Image from "next/image";
-import { Button } from "@greenlight-web/components/ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -7,74 +7,141 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@greenlight-web/components/ui/carousel";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@greenlight-web/components/ui/alert-dialog";
+import { ICardData } from "./types";
 
-export function Slider() {
-  const items = [
+const Slider = ({
+  onCardClick,
+}: {
+  onCardClick: (param: ICardData) => void;
+}) => {
+  const items: Array<ICardData> = [
     {
       src: "/images/ronaldo.png",
       alt: "Cristiano Ronaldo",
       description: "Attacking Midfielder",
       location: "Lisbon, Portugal",
-    },
-    {
-      src: "/images/player3.png",
-      alt: "Player 3",
-      description: "Attacking Midfielder",
-      location: "Lisbon, Portugal",
+      full_legal_name: "Cristiano Ronaldo",
+      nationality: "Portugal",
+      date_of_birth: "Dec 08, 1989",
+      position: "Attacking Midfielder",
+      height: "1.50m (4’0”)",
+      foot: "Right",
+      language: "Portuguese",
+      professional_debut: "2019, 19 years old",
+      current_club: "CD Aguila, El Salvador",
+      contract_end_date: "Jan. 31, 2020",
+      tansfer_fee: "None, free transfer",
+      international_competitions: "CONCACAF Champions Cup",
+      awards: "2023 Goalkeeper of the Year",
+      video: "ronaldo.mp4",
+      poster: "ronaldo.jpeg",
     },
     {
       src: "/images/player2.png",
-      alt: "Player 2",
-      description: "Attacking Midfielder",
+      alt: "Gavi",
+      description: "Midfielder",
+      location: "Barcelona, Spain",
+      full_legal_name: "Gavi",
+      nationality: "Spain",
+      date_of_birth: "Dec 08, 1989",
+      position: "Midfielder",
+      height: "1.70m (6’0”)",
+      foot: "Left",
+      language: "Spanish",
+      professional_debut: "2019, 19 years old",
+      current_club: "Manchester Unitetd",
+      contract_end_date: "June 31, 2022",
+      tansfer_fee: "None, free transfer",
+      international_competitions: "player 1",
+      awards: "2023 Goalkeeper of the Year",
+      video: "gavi.mp4",
+      poster: "gavi.jpeg",
+    },
+    {
+      src: "/images/player3.png",
+      alt: "Kyle Walker",
+      description: "Goal Keeper",
       location: "Lisbon, Portugal",
+      full_legal_name: "Kyle Walker",
+      nationality: "Portugal",
+      date_of_birth: "Dec 08, 1989",
+      position: "Goal Keeper",
+      height: "1.83m (6’0”)",
+      foot: "Right",
+      language: "Portuguese, English",
+      professional_debut: "2019, 19 years old",
+      current_club: "Chelsea FC",
+      contract_end_date: "Dec 31, 2024",
+      tansfer_fee: "None, free transfer",
+      international_competitions: "player 1",
+      awards: "2023 Goalkeeper of the Year",
+      video: "walker.mp4",
+      poster: "walker.jpeg",
     },
     {
       src: "/images/ronaldo.png",
       alt: "Cristiano Ronaldo",
       description: "Attacking Midfielder",
       location: "Lisbon, Portugal",
-    },
-    {
-      src: "/images/player3.png",
-      alt: "Player 3",
-      description: "Attacking Midfielder",
-      location: "Lisbon, Portugal",
-    },
-    {
-      src: "/images/player2.png",
-      alt: "Player 2",
-      description: "Attacking Midfielder",
-      location: "Lisbon, Portugal",
-    },
-    {
-      src: "/images/ronaldo.png",
-      alt: "Cristiano Ronaldo",
-      description: "Attacking Midfielder",
-      location: "Lisbon, Portugal",
-    },
-    {
-      src: "/images/player3.png",
-      alt: "Player 3",
-      description: "Attacking Midfielder",
-      location: "Lisbon, Portugal",
+      full_legal_name: "Cristiano Ronaldo",
+      nationality: "Portugal",
+      date_of_birth: "Dec 08, 1989",
+      position: "Attacking Midfielder",
+      height: "1.50m (4’0”)",
+      foot: "Right",
+      language: "Portuguese",
+      professional_debut: "2019, 19 years old",
+      current_club: "CD Aguila, El Salvador",
+      contract_end_date: "Jan. 31, 2020",
+      tansfer_fee: "None, free transfer",
+      international_competitions: "CONCACAF Champions Cup",
+      awards: "2023 Goalkeeper of the Year",
+      video: "ronaldo.mp4",
+      poster: "ronaldo.jpeg",
     },
     {
       src: "/images/player2.png",
-      alt: "Player 2",
-      description: "Attacking Midfielder",
-      location: "Lisbon, Portugal",
+      alt: "Gavi",
+      description: "Midfielder",
+      location: "Barcelona, Spain",
+      full_legal_name: "Gavi",
+      nationality: "Spain",
+      date_of_birth: "Dec 08, 1989",
+      position: "Midfielder",
+      height: "1.70m (6’0”)",
+      foot: "Left",
+      language: "Spanish",
+      professional_debut: "2019, 19 years old",
+      current_club: "Manchester Unitetd",
+      contract_end_date: "June 31, 2022",
+      tansfer_fee: "None, free transfer",
+      international_competitions: "player 1",
+      awards: "2023 Goalkeeper of the Year",
+      video: "gavi.mp4",
+      poster: "gavi.jpeg",
     },
+    {
+      src: "/images/player3.png",
+      alt: "Kyle Walker",
+      description: "Goal Keeper",
+      location: "Lisbon, Portugal",
+      full_legal_name: "Kyle Walker",
+      nationality: "Portugal",
+      date_of_birth: "Dec 08, 1989",
+      position: "Goal Keeper",
+      height: "1.83m (6’0”)",
+      foot: "Right",
+      language: "Portuguese, English",
+      professional_debut: "2019, 19 years old",
+      current_club: "Chelsea FC",
+      contract_end_date: "Dec 31, 2024",
+      tansfer_fee: "None, free transfer",
+      international_competitions: "player 1",
+      awards: "2023 Goalkeeper of the Year",
+      video: "walker.mp4",
+      poster: "walker.jpeg",
+    },
+    
   ];
 
   return (
@@ -82,7 +149,7 @@ export function Slider() {
       <CarouselContent className="-ml-3">
         {items.map((item, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="relative">
+            <div>
               <Image
                 src={item.src}
                 alt={item.alt}
@@ -90,49 +157,37 @@ export function Slider() {
                 width={380}
                 height={480}
               />
-              <div className="relative inset-0 bg-[rgba(0,0,0,0.5)] w-[100%] h-[240px] mt-[-240px] text-white text-left flex flex-col gap-3 p-6">
-                <p>{item.alt}</p>
-                <p>{item.description}</p>
+              <div className="border-t border-white/50 bg-white/20 backdrop-blur-lg w-full h-[240px] mt-[-240px] text-white text-left flex flex-col gap-3 p-6">
+                <p className="font-bold text-xl">{item.alt}</p>
+                <p className="font-bold">{item.description}</p>
                 <p>{item.location}</p>
-                <Button className="text-left bg-[transparent] hover:bg-[transparent]">
-                  <AlertDialog>
-                    <AlertDialogTrigger>Learn More</AlertDialogTrigger>
-                    <AlertDialogContent>
-                      <AlertDialogHeader>
-                        <AlertDialogTitle>
-                          Are you absolutely sure?
-                        </AlertDialogTitle>
-                        <AlertDialogDescription>
-                          This action cannot be undone. This will permanently
-                          delete your account and remove your data from our
-                          servers.
-                        </AlertDialogDescription>
-                      </AlertDialogHeader>
-                      <AlertDialogFooter>
-                        <AlertDialogCancel>Cancel</AlertDialogCancel>
-                        <AlertDialogAction>Continue</AlertDialogAction>
-                      </AlertDialogFooter>
-                    </AlertDialogContent>
-                  </AlertDialog>
+                <button
+                  className="flex items-center"
+                  onClick={() => onCardClick(item)}
+                >
+                  Learn More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     width="24"
                     height="24"
+                    className="rotate-45 ml-2"
                   >
                     <path
-                      fill="#757575"
+                      fill="#fff"
                       d="M4 15l7-7 7 7-1.4 1.4L11 10.8V21h-2V10.8L5.4 16.4 4 15z"
                     />
                   </svg>
-                </Button>
+                </button>
               </div>
             </div>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="absolute bottom-0 top-100 left-0 h-10 w-10 " />
-      <CarouselNext className="absolute bottom-0 left-16 top-100 h-10 w-10 " />
+      <CarouselPrevious className="relative bottom-0 top-10 left-0 h-10 w-10 " />
+      <CarouselNext className="relative bottom-0 top-10 left-5 h-10 w-10 " />
     </Carousel>
   );
-}
+};
+
+export default Slider;

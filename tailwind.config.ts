@@ -36,9 +36,13 @@ const config = {
         'extra-loose': '2.5rem' // Custom line height value
       },
       spacing: {
-        'custom': '3rem' // Custom spacing value
+        'custom': '3rem', 
+        '1.5': '6px',  
+        '0.5': '2px',
       },
       colors: {
+        success_50: "#E7F6EC",
+        success_75: "#B5E3C4",
         h6: "#C71E0D",
         post: "#1B884F",
         grayBackground: "#F9FAFB",
@@ -75,6 +79,7 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -155,6 +160,9 @@ const config = {
         "fadeInRight": 'fadeInRight 1s ease-in-out',
         "fadeInDown": 'fadeInDown 1s ease-in-out',
         "fadeIn": 'fadeIn 1s ease-in-out',
+      },
+      transitionDuration: {
+        '2000': '2000ms', // Add custom duration
       },
     },
   },
