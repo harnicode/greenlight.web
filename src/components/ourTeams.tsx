@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import React, { useEffect, useRef } from "react";
 import { useScroll } from "@greenlight-web/components/scrollContext";
@@ -25,15 +25,15 @@ const OurTeams: React.FC = () => {
         Meet the individuals who drive our mission forward and are committed to
         making a positive impact on your career.
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
-        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] md:w-[300px] p-4">
+      <div className="flex flex-wrap">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/person1.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={300}
+            height={450}
           />
           <p className="leading-[25px] mt-[10px]">John Smith</p>
           <p className="text-post">Founder & CEO</p>
@@ -59,9 +59,9 @@ const OurTeams: React.FC = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"
@@ -104,14 +104,14 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="sm:w-1/2 leading-[30px] lg:w-[450px] md:w-[300px] p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user2.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={300}
+            height={450}
           />
           <p>Emily Johnson</p>
           <p className="text-post">Head of Sports Management</p>
@@ -137,9 +137,9 @@ const OurTeams: React.FC = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"
@@ -182,14 +182,14 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="sm:w-1/2 leading-[30px] lg:w-[450px] md:w-[300px] md:mt-[20px] p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user3.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={300}
+            height={450}
           />
           <p>Michael Brown</p>
           <p className="text-post">Senior Sports Consultant</p>
@@ -215,9 +215,9 @@ const OurTeams: React.FC = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"
@@ -261,14 +261,14 @@ const OurTeams: React.FC = () => {
 
         {/* //leveltwo */}
 
-        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] lg:mt-[40px] md:w-[300px] md:mt-[20px] p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user4.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={300}
+            height={450}
           />
           <p>Sophia Davis</p>
           <p className="text-post">Director of Image Branding</p>
@@ -294,9 +294,9 @@ const OurTeams: React.FC = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"
@@ -339,14 +339,14 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] lg:mt-[40px] md:w-[300px] md:mt-[20px] p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user5.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={300}
+            height={450}
           />
           <p>David Wilson</p>
           <p className="text-post">Talent Scout</p>
@@ -372,9 +372,9 @@ const OurTeams: React.FC = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"
@@ -416,14 +416,14 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="sm:w-1/2 leading-[25px] lg:w-[450px] lg:mt-[40px] md:w-[300px] md:mt-[20px] p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user6.png"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={300}
+            height={450}
           />
           <p>Olivia Martinez</p>
           <p className="text-post">Lead Contract Negotiator</p>
@@ -449,9 +449,9 @@ const OurTeams: React.FC = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"

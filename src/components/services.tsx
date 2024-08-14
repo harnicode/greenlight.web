@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import React, { useEffect, useRef } from "react";
 import { useScroll } from "@greenlight-web/components/scrollContext";
@@ -84,10 +84,9 @@ const Services: React.FC = () => {
               <Image
                 src="/images/humanPic.png"
                 alt="Image"
-                className="rounded-md object-cover"
-                // layout="fill"
                 width={30}
-                height={450}
+                height={30}
+                className="rounded-md object-cover"
               />
             </div>
             <h4 className="font-bold">

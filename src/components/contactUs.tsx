@@ -16,7 +16,9 @@ const ContactUs: React.FC = () => {
       <div className="flex flex-col gap-[25px] md:flex-row gap-12">
         <div className="w-[100%] md:w-[50%] flex flex-col">
           <h6 className="text-h6 ">Get in Touch</h6>
-          <p className="text-[#101828] text-[1.3rem] md:text-2xl flex flex-wrap">For Players</p>
+          <p className="text-[#101828] text-[1.3rem] md:text-2xl flex flex-wrap">
+            For Players
+          </p>
 
           <p className="">
             If you’re a player seeking representation, you’ve come to the right

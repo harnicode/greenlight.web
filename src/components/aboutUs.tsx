@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import React, { useEffect, useRef } from "react";
 import { useScroll } from "@greenlight-web/components/scrollContext";
@@ -38,9 +38,8 @@ const AboutUs: React.FC = () => {
         src="/images/footballDiv.jpeg"
         alt="Image"
         className="w-[100%] h-[516px] object-cover"
-        // layout="fill"
-        width={450}
-        height={450}
+        width={500}
+        height={516}
       />
     </div>
   );
