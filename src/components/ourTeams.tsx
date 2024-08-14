@@ -26,7 +26,7 @@ const OurTeams: React.FC = () => {
         making a positive impact on your career.
       </p>
       <div className="flex flex-wrap">
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 py-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/person1.png"
             alt="Image"
@@ -104,7 +104,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 py-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user2.png"
             alt="Image"
@@ -261,7 +261,7 @@ const OurTeams: React.FC = () => {
 
         {/* //leveltwo */}
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 py-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user4.png"
             alt="Image"
@@ -339,7 +339,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 py-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user5.png"
             alt="Image"
@@ -416,7 +416,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 py-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
           <Image
             src="/images/user6.png"
             alt="Image"
