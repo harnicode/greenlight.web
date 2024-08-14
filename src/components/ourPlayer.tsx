@@ -16,7 +16,7 @@ const OurPlayer = (props: { onCardClick: (param: ICardData) => void }) => {
     <div
       ref={ref}
       id="players"
-      className="bg-grayBackground w-full min-h-[600px] z-[19]"
+      className="bg-grayBackground w-full pb-[2rem] z-[19]"
     >
       <div className="w-[80%] mx-auto my-12 flex flex-col">
         <h6 className="text-h6 ">Our Players</h6>

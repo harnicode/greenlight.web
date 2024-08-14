@@ -13,9 +13,16 @@ export interface ICardData {
   professional_debut: string;
   current_club: string;
   contract_end_date: string;
-  tansfer_fee: string;
+  transfer_fee: string;
   international_competitions: string;
   awards: string;
   video: string;
   poster: string;
 }
+
+export type SectionHeader =
+  | "about-us"
+  | "services"
+  | "team"
+  | "players"
+  | "contact-us";
