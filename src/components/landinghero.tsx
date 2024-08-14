@@ -4,15 +4,16 @@ import { Button } from "@greenlight-web/components/ui/button";
 import Image from "next/legacy/image";
 import { useScroll } from "@greenlight-web/components/scrollContext";
 import { SectionHeader } from "./types.d";
+import { background_two, hero_image } from "@greenlight-web/assets/images";
 
 const slidesData = [
   {
-    image: "/images/heroImage.jpeg",
+    image: hero_image,
     heading: "Elevate your\nGame with Experts \n Sports Management",
     text: "From strategic consultancy and image branding to talent identification and contract negotiation, our team ensures you achieve peak performance both on and off the field. Discover how we can transform your sports career today.",
   },
   {
-    image: "/images/background2.jpeg",
+    image: background_two,
     heading: "Unleashing your\ninner champion",
     text: "From strategic consultancy and image branding to talent identification and contract negotiation, our team ensures you achieve peak performance both on and off the field. Discover how we can transform your sports career today.",
   },
