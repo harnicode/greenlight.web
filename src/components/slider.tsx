@@ -145,19 +145,19 @@ const Slider = ({
   ];
 
   return (
-    <Carousel className="w-[100%]">
+    <Carousel className="w-[100%] mt-[3rem]">
       <CarouselContent className="-ml-3">
         {items.map((item, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div>
+          <CarouselItem key={index} className="bg-grayBackground max-w-[30rem]">
+            <div className="w-[30rem]">
               <Image
                 src={item.src}
                 alt={item.alt}
-                className="object-cover min-h-[480px] w-[100%]"
-                width={380}
-                height={480}
+                className="object-cover h-[450px] w-[30rem]"
+                width={480}
+                height={450}
               />
-              <div className="border-t border-white/50 bg-white/20 backdrop-blur-lg w-full h-[240px] mt-[-240px] text-white text-left flex flex-col gap-3 p-6">
+              <div className="border-t border-white/50 bg-green/20 backdrop-blur-lg w-[24.2rem] xl:w-[29rem] md:w-[29rem] h-[240px] mt-[-240px] text-white text-left flex flex-col gap-3 p-6">
                 <p className="font-bold text-xl">{item.alt}</p>
                 <p className="font-bold">{item.description}</p>
                 <p>{item.location}</p>

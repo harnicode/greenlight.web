@@ -17,16 +17,22 @@ const OurTeams: React.FC = () => {
     <div
       ref={ref}
       id="team"
-      className="flex flex-col items-left justify-between my-[50px] w-[80%]"
+      className="flex flex-col items-left justify-between w-[95%] md:w-[90%] m-auto"
     >
-      <h6 className="text-h6">Our team</h6>
-      <p className="text-[#101828]  text-2xl flex flex-wrap">Leadership team</p>
-      <p className="leading-lg mb-[10px]">
-        Meet the individuals who drive our mission forward and are committed to
-        making a positive impact on your career.
-      </p>
-      <div className="flex flex-wrap">
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
+      <div className="flex flex-col gap-[1rem]">
+        <h6 className="text-h6 font-black">Our team</h6>
+        <p className="text-[gray-900]  text-[1.6rem] md:text-[2.25rem] font-extrabold w-[90%]">
+          Leadership team
+        </p>
+        <p className="flex flex-wrap text-[1.2rem] leading-[2.5rem] md:leading-[2rem]">
+          Meet the individuals who drive our mission forward and are committed
+          to making a positive impact on your career.
+        </p>
+      </div>
+      <div className="flex flex-wrap items-center">
+
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
+
           <Image
             src="/images/person1.png"
             alt="Image"
@@ -94,7 +100,7 @@ const OurTeams: React.FC = () => {
               />
             </svg>
           </div>
-          <p className="leading-[25px] mt-[10px]">
+          <p className="leading-[25px] mt-[10px] text-gray-600">
             With over 20 years of experience in the sports industry, John Smith
             has built [Agency Name] from the ground up. His visionary leadership
             and strategic insight have positioned the agency as a leading force
@@ -104,7 +110,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
             src="/images/user2.png"
             alt="Image"
@@ -113,7 +119,7 @@ const OurTeams: React.FC = () => {
             width={450}
             height={450}
           />
-          <p>Emily Johnson</p>
+          <p className="mt-[1rem]">Emily Johnson</p>
           <p className="text-post">Head of Sports Management</p>
           <div className="flex flex-row gap-4">
             <svg
@@ -173,7 +179,7 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
 
-          <p className="leading-[25px] mt-[10px]">
+          <p className="leading-[25px] mt-[10px] text-gray-600">
             Emily Johnson brings a decade of experience in sports management to
             our team. Her meticulous approach to career planning and day-to-day
             management ensures that our clients receive comprehensive and
@@ -182,7 +188,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
             src="/images/user3.png"
             alt="Image"
@@ -191,7 +197,7 @@ const OurTeams: React.FC = () => {
             width={450}
             height={450}
           />
-          <p>Michael Brown</p>
+          <p className="mt-[1rem]">Michael Brown</p>
           <p className="text-post">Senior Sports Consultant</p>
           <div className="flex flex-row gap-4">
             <svg
@@ -250,7 +256,7 @@ const OurTeams: React.FC = () => {
               />
             </svg>
           </div>
-          <p className="leading-[25px] mt-[10px]">
+          <p className="leading-[25px] mt-[10px] text-gray-600">
             As our Senior Sports Consultant, Michael Brown offers invaluable
             expertise in strategic planning and performance enhancement. With a
             background in sports psychology and analytics, Michael provides
@@ -261,7 +267,7 @@ const OurTeams: React.FC = () => {
 
         {/* //leveltwo */}
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
             src="/images/user4.png"
             alt="Image"
@@ -270,7 +276,7 @@ const OurTeams: React.FC = () => {
             width={450}
             height={450}
           />
-          <p>Sophia Davis</p>
+          <p className="mt-[1rem]">Sophia Davis</p>
           <p className="text-post">Director of Image Branding</p>
           <div className="flex flex-row gap-4">
             <svg
@@ -330,7 +336,7 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
 
-          <p className="leading-[25px] mt-[10px]">
+          <p className="leading-[25px] mt-[10px] text-gray-600">
             Sophia Davis is a seasoned branding expert with a talent for
             creating compelling personal brands. Her innovative strategies and
             keen understanding of market trends help athletes build strong,
@@ -339,7 +345,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
             src="/images/user5.png"
             alt="Image"
@@ -348,7 +354,7 @@ const OurTeams: React.FC = () => {
             width={450}
             height={450}
           />
-          <p>David Wilson</p>
+          <p className="mt-[1rem]">David Wilson</p>
           <p className="text-post">Talent Scout</p>
           <div className="flex flex-row gap-4">
             <svg
@@ -407,7 +413,7 @@ const OurTeams: React.FC = () => {
               />
             </svg>
           </div>
-          <p className="leading-[25px] mt-[10px]">
+          <p className="leading-[25px] mt-[10px] text-gray-600">
             David Wilson’s extensive network and keen eye for emerging talent
             make him an invaluable asset to our team. As our Talent Scout, David
             is responsible for identifying promising athletes and guiding them
@@ -416,7 +422,7 @@ const OurTeams: React.FC = () => {
           </p>
         </div>
 
-        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 p-4">
+        <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
             src="/images/user6.png"
             alt="Image"
@@ -425,7 +431,7 @@ const OurTeams: React.FC = () => {
             width={450}
             height={450}
           />
-          <p>Olivia Martinez</p>
+          <p className="mt-[1rem]">Olivia Martinez</p>
           <p className="text-post">Lead Contract Negotiator</p>
           <div className="flex flex-row gap-4">
             <svg
@@ -485,7 +491,7 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
 
-          <p className="leading-[25px] mt-[10px]">
+          <p className="leading-[25px] text-gray-600">
             Olivia Martinez is our expert in contract writing and negotiation.
             With a background in sports law and a keen understanding of contract
             intricacies, Olivia ensures that all agreements are fair,

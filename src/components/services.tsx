@@ -14,19 +14,19 @@ const Services: React.FC = () => {
   }, [setRef]);
 
   return (
-    <div ref={ref} id="services" className="bg-grayBackground">
-      <div className="flex flex-col items-left justify-between mt-[50px] w-[80%] m-auto mb-[50px]">
-        <h6 className="text-h6 ">Services</h6>
-        <p className="text-[#101828]  text-2xl flex flex-wrap">
+    <div ref={ref} id="services" className="bg-grayBackground py-[6rem] my-[6rem] md:pb-[10rem]">
+      <div className="flex flex-col gap-[1rem] items-left justify-between w-[95%] md:w-[90%] m-auto">
+        <h6 className="text-h6 font-black">Services</h6>
+        <p className="text-[gray-900]  text-[1.6rem] md:text-[2.25rem] font-extrabold w-[90%]">
           Expertise with personalized care
         </p>
-        <p className=" flex flex-wrap leading-lg mb-[10px]">
+        <p className="flex flex-wrap text-[1.2rem] leading-[2rem]">
           We offer a comprehensive suite of services designed to support
-          athletes and sports professionals at every stage of their careers.
+          athletes and sports <br />professionals at every stage of their careers.
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[40px]">
           <div className="flex flex-col gap-4">
-            <div className="flex w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
+            <div className="p-2 w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
               <Image
                 src="/images/football.png"
                 alt="Image"
@@ -36,15 +36,15 @@ const Services: React.FC = () => {
                 height={30}
               />
             </div>
-            <h4 className="font-bold">Sports Management</h4>
-            <p>
+            <h4 className="text-[1.2rem] font-extrabold">Sports Management</h4>
+            <p className="leading-[30px]  mb-[10px] text-gray-600 w-[90%]">
               We provide comprehensive support in every aspect of an athlete’s
               career allowing you to focus on what you do best—performing at
               your peak.
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="flex w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
+            <div className="p-2 w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
               <Image
                 src="/images/knowledge-02.png"
                 alt="Image"
@@ -54,15 +54,15 @@ const Services: React.FC = () => {
                 height={30}
               />
             </div>
-            <h4 className="font-bold">Consultancy Services</h4>
-            <p>
+            <h4 className="text-[1.2rem] font-extrabold">Consultancy Services</h4>
+            <p className="leading-[30px] mb-[10px] text-gray-600 w-[90%]">
               Our expert consultants are here to provide personalized advice and
               actionable strategies to help you navigate the complexities of the
               sports industry.
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="flex w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
+            <div className="p-2 w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
               <Image
                 src="/images/ranking.png"
                 alt="Image"
@@ -72,15 +72,15 @@ const Services: React.FC = () => {
                 height={30}
               />
             </div>
-            <h4 className="font-bold">Image Branding</h4>
-            <p>
+            <h4 className="text-[1.2rem] font-extrabold">Image Branding</h4>
+            <p className="leading-[30px] mb-[10px] text-gray-600 w-[90%]">
               We work closely with you to develop a compelling brand identity
               and create a positive image that resonates with fans, sponsors,
               and partners.
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="flex w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
+            <div className="p-2 w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
               <Image
                 src="/images/humanPic.png"
                 alt="Image"
@@ -89,17 +89,17 @@ const Services: React.FC = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <h4 className="font-bold">
+            <h4 className="text-[1.2rem] font-extrabold">
               Talent Identification & Representation
             </h4>
-            <p>
+            <p className="leading-[30px] mb-[10px] text-gray-600 w-[90%]">
               We are committed to helping talented individuals reach their full
               potential by offering them expert guidance, and representing their
               interests with integrity and professionalism.
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="flex w-14 h-14  p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
+            <div className="flex w-14 h-14 p-3 justify-center items-center rounded-full border-8 border-success_50 bg-success_75">
               <Image
                 src="/images/book.png"
                 alt="Image"
@@ -108,8 +108,8 @@ const Services: React.FC = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <h4 className="font-bold">Contract Writing & Negotiation</h4>
-            <p>
+            <h4 className="text-[1.2rem] font-extrabold">Contract Writing & Negotiation</h4>
+            <p className="leading-[30px] mb-[10px] text-gray-600 w-[90%]">
               We are committed to helping talented individuals reach their full
               potential by offering them expert guidance, and representing their
               interests with integrity and professionalism.

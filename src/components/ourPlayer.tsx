@@ -16,14 +16,14 @@ const OurPlayer = (props: { onCardClick: (param: ICardData) => void }) => {
     <div
       ref={ref}
       id="players"
-      className="bg-grayBackground w-full pb-[2rem] z-[19]"
+      className="bg-grayBackground w-full z-[19]"
     >
-      <div className="w-[80%] mx-auto my-12 flex flex-col">
-        <h6 className="text-h6 ">Our Players</h6>
-        <p className="text-[#101828]  text-2xl flex flex-wrap">
+      <div className="flex flex-col w-[95%] gap-[1rem] md:w-[90%] m-auto py-[6rem] my-[6rem]">
+        <h6 className="text-h6 font-black leading-[2.5rem]">Our Players</h6>
+        <p className="text-[gray-900]  text-[1.6rem] md:text-[2.25rem] leading-[2.5rem] font-extrabold w-[90%]">
           Exceptional roster of athletes
         </p>
-        <p className=" flex flex-wrap leading-lg mb-[10px]">
+        <p className="flex flex-wrap text-[1.2rem] leading-[2.5rem]">
           Explore the profiles of our talented athletes and learn more about
           their achievements and career highlights.
         </p>
