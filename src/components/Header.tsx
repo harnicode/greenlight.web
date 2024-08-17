@@ -90,14 +90,14 @@ const Header = ({
 
   return (
     <div>
-      <header className="fixed inset-0 w-full z-20 h-20 bg-black bg-opacity-50 text-white py-4">
-        <div className="h-full flex items-center justify-between mx-auto w-4/5">
+      <header className="fixed inset-0 w-screen z-20 h-20 bg-black bg-opacity-50 text-white py-4">
+        <div className="h-full flex items-center justify-between mx-auto w-[95%] md:w-[90%]">
           <Image
             src="/images/logo.png"
             alt="Logo"
-            className="rounded-md object-cover w-15 h-15"
-            width={60}
-            height={60}
+            className="rounded-md object-cover w-[2.81rem] h-[2.5rem] my-4"
+            width={45}
+            height={40}
           />
           <nav className="hidden md:flex items-center space-x-4">
             {sections.map((section) => (
@@ -117,7 +117,7 @@ const Header = ({
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10"
             >
               <path
                 strokeLinecap="round"
@@ -144,7 +144,7 @@ const Header = ({
               height={60}
             />
           </a>
-          <button onClick={handleMenuToggle} className="text-xl">
+          <button onClick={handleMenuToggle} className="text-[1.75rem]">
             <svg
               width="24"
               height="24"
@@ -162,7 +162,7 @@ const Header = ({
             </svg>
           </button>
         </div>
-        <ul className="flex flex-col gap-6 mt-6">
+        <ul className="flex flex-col gap-6 mt-6 text-bold text-[1rem]">
           {sections.map((section) => (
             <a
               key={section}
@@ -176,7 +176,7 @@ const Header = ({
       </div>
 
       <div
-        className={`fixed inset-0 z-30 transition-opacity w-screen h-screen flex flex-col duration-300 bg-[gray]/40 backdrop-blur-lg p-3 p-6 lg:px-[15rem] overflow-y-scroll ${
+        className={`fixed inset-0 z-30 transition-opacity w-screen h-screen text-[1rem] flex flex-col duration-300 bg-[gray]/40 backdrop-blur-lg p-3 p-6 lg:px-[15rem] overflow-y-scroll ${
           visible ? "opacity-100" : "opacity-0 hidden"
         }`}
       >

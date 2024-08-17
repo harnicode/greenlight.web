@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <div className="relative bg-[#0C111D] min-h-[456px] text-white pt-[50px]">
-      <div className="w-[80%] m-auto flex flex-col gap-[40px]">
+      <div className="mx-auto w-[95%] md:w-[90%] flex flex-col gap-[1rem]">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="basis-3/5 content-between justify-between gap-6">
             <div className="flex flex-col gap-4">
@@ -25,7 +25,7 @@ const Footer = () => {
                   width={50}
                   height={50}
                 />
-                <h3 className="text-md md:text-xl font-bold">
+                <h3 className="text-xl md:text-2xl font-bold">
                   Green Light Sports Consult
                 </h3>
               </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 </p>
               </div>
               <div>
-                <p className="leading-[35px] text-lg">Useful Links</p>
+                {/* <p className="leading-[35px] text-lg">Useful Links</p> */}
                 <ul className="grid grid-cols-2 2xl:grid-cols-6 items-center justify-start gap-4 py-4">
                   {sections.map((section) => (
                     <li
@@ -71,11 +71,10 @@ const Footer = () => {
 
       <div
         className="relative m-auto mt-8 border-t-[1px] border-gray-500
-             flex items-center justify-center 
-             w-full md:w-[80%] lg:w-[80%]
+            mx-auto w-[95%] md:w-[90%] flex flex-col gap-[1rem]
              md:justify-start lg:justify-start"
       >
-        <p className="text-gray-500 text-[12px] md:text-[14px] leading-[80px] md:leading-[80px]">
+        <p className="text-gray-500 text-[12px] md:text-[14px] leading-[80px] md:leading-[80px] md:text-left text-center">
           © 2024 Green Light Sports Consult. All rights reserved.
         </p>
       </div>

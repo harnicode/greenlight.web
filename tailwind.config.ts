@@ -22,6 +22,13 @@ const config = {
       },
     },
     extend: {
+      fontSize: {
+        'tiny': '1.4rem',
+        'small': '1.45rem',
+        'normal': '1.5rem',   
+        'huge': '3rem',   
+        'xxl': '4rem',   
+      },
       width: {
         '100%': '100%',
       },
@@ -126,6 +133,8 @@ const config = {
             transform: 'translate3d(0, 0, 0)',
           },
         },
+
+
         "fadeInRight": {
           '0%': {
             opacity: '0',
@@ -150,6 +159,26 @@ const config = {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
+        "slideInLeft": {
+          '0%': {
+            visibility: 'visible',
+            transform: 'translate3d(-100%, 0, 0)',
+          },
+          '100%': {
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
+
+
+        "slideInRight": {
+          '0%': {
+            visibility: 'visible',
+            transform: 'translate3d(100%, 0, 0)',
+          },
+          '100%': {
+            transform: 'translate3d(0, 0, 0)',
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -160,6 +189,8 @@ const config = {
         "fadeInRight": 'fadeInRight 1s ease-in-out',
         "fadeInDown": 'fadeInDown 1s ease-in-out',
         "fadeIn": 'fadeIn 1s ease-in-out',
+        "slideInLeft": 'slideInLeft 1s ease-in-out',
+        "slideInRight": 'slideInRight 1s ease-in-out',
       },
       transitionDuration: {
         '2000': '2000ms', // Add custom duration
