@@ -13,6 +13,7 @@ import { Button } from "@greenlight-web/components/ui/button";
 import Image from "next/legacy/image";
 import { useScroll } from "@greenlight-web/components/scrollContext";
 import { SectionHeader } from "./types.d";
+import { background_two, hero_image } from "@greenlight-web/assets/images";
 
 const slidesData = [
   {
