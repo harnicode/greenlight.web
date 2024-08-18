@@ -74,9 +74,9 @@ const LandingHero = () => {
                       </>
                     )}
                   </h1>
-                  <p className="w-[95%] xl:w-[60%] md:w-[80%] text-[1rem] xl:text-[1.3rem]  md:text-[1.5rem] xl:leading-[2.2rem]">{slide.text}</p>
+                  <p className="w-[90%] xl:w-[60%] md:w-[80%] text-[1rem] xl:text-[1.3rem]  md:text-[1.5rem] xl:leading-[2.2rem]">{slide.text}</p>
                   <Button
-                    className="bg-[#1B884F] hover:bg-[#1B884F]-600 text-white rounded-md h-12 text-lg md:w-[11.875rem] h-[3.75rem] w-[24.5rem]"
+                    className="bg-[#1B884F] hover:bg-[#1B884F]-600 text-white rounded-md h-12 text-lg md:w-[11.875rem] h-[3.75rem] w-[20rem]"
                     onClick={() => handleScroll("contact-us")}
                   >
                     Get Started
