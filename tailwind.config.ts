@@ -47,7 +47,22 @@ const config = {
         '1.5': '6px',  
         '0.5': '2px',
       },
+      
       colors: {
+        fontFamily: {
+          inter: 'Inter'
+        },
+        fontSize: {
+          'base': '20px', // For custom font-size utility
+        },
+        lineHeight: {
+          'base': '30px', // For custom line-height utility
+        },
+        fontWeight: {
+          'semibold': '600', // For custom font-weight utility
+        },
+        customdark: '#101828',
+        customlessdark: '#1D2739',
         success_50: "#E7F6EC",
         success_75: "#B5E3C4",
         h6: "#C71E0D",
