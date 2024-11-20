@@ -29,18 +29,20 @@ const OurTeams: React.FC = () => {
           to making a positive impact on your career.
         </p>
       </div>
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-top">
         <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
-            src="/images/person1.png"
+            src="/images/anthony.jpeg"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={450}
+            height={550}
           />
-          <p className="leading-[25px] mt-[10px] text-[#000] font-bold text-[1.2rem]">John Smith</p>
-          <p className="text-gray-500">Founder & CEO</p>
+          <p className="leading-[25px] mt-[10px] text-[#000] font-bold text-[1.2rem]">
+            Anthony Osei
+          </p>
+          <p className="text-gray-500">Consultant</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -106,26 +108,27 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
           <p className="leading-[25px] mt-[10px] text-gray-600">
-            With over 20 years of experience in the sports industry, John Smith
-            has built [Agency Name] from the ground up. His visionary leadership
-            and strategic insight have positioned the agency as a leading force
-            in athlete representation and sports management. John is passionate
-            about empowering athletes and ensuring their success both on and off
-            the field.
+            Anthony Osei Is a seasoned marketing professional with a Master's
+            degree in Marketing and over 10 years of diverse experience in
+            sales, marketing, and proposal writing. He has a proven track record
+            in developing strategic marketing initiatives that drive business
+            growth and enhance brand visibility.
           </p>
         </div>
 
         <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
-            src="/images/user2.png"
+            src="/images/bright.jpeg"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={450}
+            height={550}
           />
-          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">Emily Johnson</p>
-          <p className="text-gray-500">Head of Sports Management</p>
+          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">
+            Bright Abodakpi
+          </p>
+          <p className="text-gray-500">Scout</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -193,25 +196,25 @@ const OurTeams: React.FC = () => {
           </div>
 
           <p className="leading-[25px] mt-[10px] text-gray-600">
-            Emily Johnson brings a decade of experience in sports management to
-            our team. Her meticulous approach to career planning and day-to-day
-            management ensures that our clients receive comprehensive and
-            personalized support. Emily is dedicated to helping athletes achieve
-            their peak performance and career goals.
+            A seasoned soccer enthusiasts with great insight in talent
+            identification and scouting, is committed in unearthing and
+            developing talent. Bright Abodakpi, Scout
           </p>
         </div>
 
         <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
-            src="/images/user3.png"
+            src="/images/felix.jpeg"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={450}
+            height={550}
           />
-          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">Michael Brown</p>
-          <p className="text-gray-500">Senior Sports Consultant</p>
+          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">
+            Fisco Frimpong
+          </p>
+          <p className="text-gray-500">Director</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -277,11 +280,12 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
           <p className="leading-[25px] mt-[10px] text-gray-600">
-            As our Senior Sports Consultant, Michael Brown offers invaluable
-            expertise in strategic planning and performance enhancement. With a
-            background in sports psychology and analytics, Michael provides
-            athletes with the tools and insights needed to make informed
-            decisions and excel in their careers.
+            As a life long athlete and a fanatic of soccer, I am committed to
+            working closely with stakeholders and team members to ensure their
+            views are represented at all levels. There are many ways you can
+            connect with GreenLight SC and I will encourage you to get in touch
+            with us to play your part and make your voice heard.Fisco Frimpong,
+            Director
           </p>
         </div>
 
@@ -289,15 +293,17 @@ const OurTeams: React.FC = () => {
 
         <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
           <Image
-            src="/images/user4.png"
+            src="/images/joseph.jpeg"
             alt="Image"
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={450}
+            height={550}
           />
-          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">Sophia Davis</p>
-          <p className="text-gray-500">Director of Image Branding</p>
+          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">
+            Joseph Ayoka
+          </p>
+          <p className="text-gray-500">social media specialist</p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -364,25 +370,28 @@ const OurTeams: React.FC = () => {
           </div>
 
           <p className="leading-[25px] mt-[10px] text-gray-600">
-            Sophia Davis is a seasoned branding expert with a talent for
-            creating compelling personal brands. Her innovative strategies and
-            keen understanding of market trends help athletes build strong,
-            impactful identities. Sophia’s work ensures that our clients stand
-            out in a competitive landscape and connect with fans and sponsors.
+            Joseph Ayoka is a social media specialist at Greenlight Sports
+            Consult, specializing in crafting strategic content that drives
+            engagement and boosts brand visibility. With expertise in digital
+            trends and analytics, Ayoka enhances the company’s online presence
+            and fosters strong connections with sports enthusiasts.
           </p>
         </div>
 
         <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
-          <Image
-            src="/images/user5.png"
-            alt="Image"
-            className="rounded-md object-cover"
-            // layout="fill"
-            width={450}
-            height={450}
-          />
-          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">David Wilson</p>
-          <p className="text-gray-500">Talent Scout</p>
+            <Image
+              src="/images/prince.jpeg"
+              alt="Prince"
+              className="rounded-md object-cover"
+              width={450} // fixed width
+              height={550} // fixed height
+            />
+          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">
+            Prince Sampong Owusu
+          </p>
+          <p className="text-gray-500">
+            Director of Green Light Sports Consult.
+          </p>
           <div className="flex flex-row gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -448,11 +457,14 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
           <p className="leading-[25px] mt-[10px] text-gray-600">
-            David Wilson’s extensive network and keen eye for emerging talent
-            make him an invaluable asset to our team. As our Talent Scout, David
-            is responsible for identifying promising athletes and guiding them
-            through the early stages of their careers. His dedication to
-            discovering and nurturing new talent is unmatched.
+            He is Results-oriented professional with experience in managing and
+            direction.Possesses excellent time management skills,top
+            customer-relations abilities.With years of experience in
+            banking(Corporate & Investment Banking) and as an Entreprenuer he is
+            passionate about leveraging leadership skills to inspire teams and
+            drive business success. He holds master’s degree in Business
+            Administration,a First Degree from University of Ghana,Legon and a
+            Product of St Peter’s Secondary School,Nkwatia-Kwahu.
           </p>
         </div>
 
@@ -463,9 +475,11 @@ const OurTeams: React.FC = () => {
             className="rounded-md object-cover"
             // layout="fill"
             width={450}
-            height={450}
+            height={550}
           />
-          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">Olivia Martinez</p>
+          <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">
+            Olivia Martinez
+          </p>
           <p className="text-gray-500 ">Lead Contract Negotiator</p>
           <div className="flex flex-row gap-4">
             <svg
