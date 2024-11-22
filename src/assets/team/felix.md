@@ -1,0 +1,1 @@
+As a life long athlete and a fanatic of soccer, I am committed to working closely with stakeholders and team members to ensure their views are represented at all levels. There are many ways you can connect with GreenLight SC and I will encourage you to get in touch with us to play your part and make your voice heard.Fisco Frimpong, Director

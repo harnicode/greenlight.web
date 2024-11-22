@@ -1,0 +1,1 @@
+Joseph Ayoka is a social media specialist at Greenlight Sports Consult, specializing in crafting strategic content that drives engagement and boosts brand visibility. With expertise in digital trends and analytics, Ayoka enhances the company’s online presence and fosters strong connections with sports enthusiasts.
