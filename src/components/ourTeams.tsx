@@ -57,7 +57,7 @@ const OurTeams: React.FC = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 72 72"
+              enableBackground="new 0 0 72 72"
               viewBox="0 0 72 72"
               width="24"
               height="24"
@@ -108,7 +108,7 @@ const OurTeams: React.FC = () => {
             </svg>
           </div>
           <p className="leading-[25px] mt-[10px] text-gray-600">
-            Anthony Osei Is a seasoned marketing professional with a Master's
+            Anthony Osei Is a seasoned marketing professional with a Master&apos;s
             degree in Marketing and over 10 years of diverse experience in
             sales, marketing, and proposal writing. He has a proven track record
             in developing strategic marketing initiatives that drive business
@@ -143,7 +143,7 @@ const OurTeams: React.FC = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 72 72"
+              enableBackground="new 0 0 72 72"
               viewBox="0 0 72 72"
               width="24"
               height="24"
@@ -229,7 +229,7 @@ const OurTeams: React.FC = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 72 72"
+              enableBackground="new 0 0 72 72"
               viewBox="0 0 72 72"
               width="24"
               height="24"
@@ -318,7 +318,7 @@ const OurTeams: React.FC = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 72 72"
+              enableBackground="new 0 0 72 72"
               viewBox="0 0 72 72"
               width="24"
               height="24"
@@ -379,13 +379,13 @@ const OurTeams: React.FC = () => {
         </div>
 
         <div className="leading-[25px] basis-full sm:basis-1/2 lg:basis-1/3 xl:pe-[4rem] md:pe-[4rem] flex flex-col gap-[0.2rem] mt-[3rem] sm:pe-[30px]">
-            <Image
-              src="/images/prince.jpeg"
-              alt="Prince"
-              className="rounded-md object-cover"
-              width={450} // fixed width
-              height={550} // fixed height
-            />
+          <Image
+            src="/images/prince.jpeg"
+            alt="Prince"
+            className="rounded-md object-cover"
+            width={450} // fixed width
+            height={550} // fixed height
+          />
           <p className="mt-[1rem] text-[#000] font-bold text-[1.2rem]">
             Prince Sampong Owusu
           </p>
@@ -406,7 +406,7 @@ const OurTeams: React.FC = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 72 72"
+              enableBackground="new 0 0 72 72"
               viewBox="0 0 72 72"
               width="24"
               height="24"
@@ -495,7 +495,7 @@ const OurTeams: React.FC = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 72 72"
+              enableBackground="new 0 0 72 72"
               viewBox="0 0 72 72"
               width="24"
               height="24"
